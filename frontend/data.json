@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": "10",
+      "name": "Small Rubber Cheese",
+      "image": "https://firebasestorage.googleapis.com/v0/b/ecmascript-14405.appspot.com/o/images%2Fimages.jpeg?alt=media&token=62c6aa56-f6b5-4998-a68f-670db1d953e2",
+      "price": "471.00",
+      "status": true,
+      "quantity": 1,
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ...",
+      "categoryId": "1"
+    },
+    {
+      "id": "11",
+      "categoryId": "1",
+      "name": "Handcrafted Soft Salad",
+      "image": "https://picsum.photos/640/480",
+      "price": "824.00",
+      "status": true,
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ...",
+      "quantity": 1
+    },
+    {
+      "id": "12",
+      "categoryId": "2",
+      "name": "Licensed Steel Soap",
+      "image": "https://picsum.photos/640/480",
+      "price": "611.00",
+      "status": false,
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ...",
+      "quantity": 1
+    },
+    {
+      "id": "13",
+      "categoryId": "2",
+      "name": "Handmade Frozen Ball",
+      "image": "https://picsum.photos/640/480",
+      "price": "821.00",
+      "status": false,
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ...",
+      "quantity": 1
+    },
+    {
+      "id": "14",
+      "categoryId": "2",
+      "name": "Handmade Plastic Table",
+      "image": "https://picsum.photos/640/480",
+      "price": "894.00",
+      "status": true,
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ...",
+      "quantity": 1
+    },
+    {
+      "id": "15",
+      "categoryId": "1",
+      "name": "Generic Fresh Gloves",
+      "image": "https://picsum.photos/640/480",
+      "price": "156.00",
+      "status": false,
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ...",
+      "quantity": 1
+    },
+    {
+      "id": "16",
+      "categoryId": "1",
+      "name": "Generic Soft Keyboard 2132",
+      "image": "https://picsum.photos/640/480",
+      "price": "933.00",
+      "status": true,
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ...",
+      "quantity": 1
+    },
+    {
+      "id": "17",
+      "categoryId": "1",
+      "name": "Intelligent Granite Table",
+      "image": "https://picsum.photos/640/480",
+      "price": "694.00",
+      "status": false,
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ...",
+      "quantity": 1
+    },
+    {
+      "id": "18",
+      "categoryId": "1",
+      "name": "Small Soft Shirt",
+      "image": "https://picsum.photos/640/480",
+      "price": "797.00",
+      "status": false,
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ...",
+      "quantity": 1
+    },
+    {
+      "id": "19",
+      "categoryId": "1",
+      "name": "Rustic Metal Table",
+      "image": "https://picsum.photos/640/480",
+      "price": "841.00",
+      "status": false,
+      "quantity": 1,
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ..."
+    },
+    {
+      "id": "b55ddef3-38c9-44d7-862f-8278096fa7fd",
+      "name": "new product 1",
+      "price": "2222",
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ...",
+      "image": "https://firebasestorage.googleapis.com/v0/b/ecmascript-14405.appspot.com/o/images%2Fabout2.png?alt=media&token=1bf7578b-844d-4899-aea5-bc50f11dff9b",
+      "quantity": 1
+    },
+    {
+      "id": "d9b11253-626b-459e-9e15-a05e0092e4e6",
+      "name": "Ngô Văn Dũng",
+      "price": "234235535",
+      "categoryId": "1",
+      "quantity": 1,
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ...",
+      "image": "https://firebasestorage.googleapis.com/v0/b/ecmascript-14405.appspot.com/o/images%2Farrival3.png?alt=media&token=c6162143-8974-48e4-a08e-c892f7a0cedd"
+    },
+    {
+      "id": "89e60878-648b-4f91-97b8-94345bf3d864",
+      "name": "Ngô",
+      "price": "2",
+      "categoryId": "3",
+      "describe": " Trẻ trung và cuốn hút theo phong cách đường phố thu-đông  với áo nỉ thêu hình động vật của thương hiệu Asos.- Chất  liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: XámHướng dẫn sử dụng:- Giặt bằng tay với nhiệt độ không quá 30°C- Không được tẩy- Không được sấy khô- Ủi với nhiệt độ...",
+      "quantity": 1,
+      "image": "https://firebasestorage.googleapis.com/v0/b/ecmascript-14405.appspot.com/o/images%2Farrival6.png?alt=media&token=0ac73b97-7bb7-4664-a885-ce5b4266e373"
+    },
+    {
+      "id": "2b651237-42f0-400a-b43a-3988620c321e",
+      "name": "Ngô Văn Dũng 123",
+      "price": "1231235434",
+      "categoryId": "3",
+      "describe": "234234",
+      "quantity": 1,
+      "image": "https://firebasestorage.googleapis.com/v0/b/ecmascript-14405.appspot.com/o/images%2Ffavorit-card.png?alt=media&token=d0a10950-7b5f-4dd8-a8d0-000c169f53d3"
+    },
+    {
+      "id": "676fce3c-1fa1-4a0e-ae66-9c6e335c01b0",
+      "name": "demo sản phẩm ",
+      "price": "1236",
+      "categoryId": "3",
+      "describe": "sdfdadsf",
+      "image": "https://firebasestorage.googleapis.com/v0/b/ecmascript-14405.appspot.com/o/images%2Ft%E1%BA%A3i%20xu%E1%BB%91ng.jpeg?alt=media&token=dbcc22f0-27c8-402a-a866-b42290431374"
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "Giày",
+      "image": "https://firebasestorage.googleapis.com/v0/b/ecmascript-14405.appspot.com/o/categories%2Fpopular1.png?alt=media&token=0ac604bd-a4c1-4ea7-b6e8-91c824ad99ea"
+    },
+    {
+      "id": "2",
+      "name": "Trang sức",
+      "image": "https://firebasestorage.googleapis.com/v0/b/ecmascript-14405.appspot.com/o/categories%2Fpopular2.png?alt=media&token=3cfae371-39fd-4e6f-8213-790b61c7e2a0"
+    },
+    {
+      "id": "3",
+      "name": "Quần áo",
+      "image": "https://firebasestorage.googleapis.com/v0/b/ecmascript-14405.appspot.com/o/categories%2Fpopular3.png?alt=media&token=123ad818-8381-4982-830b-f7c307f25f43"
+    },
+    {
+      "id": "4",
+      "name": "Phụ kiện",
+      "image": "https://firebasestorage.googleapis.com/v0/b/ecmascript-14405.appspot.com/o/categories%2Fpopular4.png?alt=media&token=83282cfb-8889-4e4c-a4dc-22e806d4994d"
+    }
+  ],
+  "user": [
+    {}
+  ],
+  "customer": [
+    {
+      "id": "c959495a-193b-45a1-a279-d2137cc3edc0",
+      "name": "Ngô Việt Cường",
+      "address": "Mỹ ĐÌnh,Nam Từ Liêm, Ha noi",
+      "email": "vietcuong11a22001@gmail.com",
+      "phone_number": "0971455981",
+      "create_date": "2021-06-15T15:28:07.675Z",
+      "status": false
+    }
+  ],
+  "orderdetail": []
+}

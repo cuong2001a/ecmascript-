@@ -1,0 +1,406 @@
+Website
+- Home page
+- About page
+- Product pages
+- Detail Product Page
+- Contact
+Admin
+- Dashboard
+- Product Manager
+    - Product
+    - Category
+- Contact Manager
+
+--- Chức năng ---- 
+- Router
+- Giỏ hàng
+- Thanh toán
+- Phân trang
+- Filter
+- sort
+- Search
+- Đăng nhập, Đăng ký
+Phần 1: Khởi tạo project
+    1. Tạo folder frontend/src
+    2. Bật terminal: npm init -y trong folder frontend
+    2.1: Tạo file index.js trong thư mục src
+    3. Cài đặt webpack: npm i -d webpack webpack-dev-server webpack-cli 
+    4. Tạo file index.html trong thư mục frontend
+    5. <script src="main.js"></script>
+    6. thiết lập id="main-content"
+    5. Chỉnh sửa file package.json
+              "start": "webpack serve --open --mode development"
+    6. Chạy câu lệnh : npm start
+    7. Xem kết
+ "build:css": "npx tailwindcss-cli@latest build tailwind.css -o assets/css/tailwind.css"
+1. npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+2. npx tailwindcss init
+3.  "build:css": "npx tailwindcss-cli@latest build tailwind.css -o assets/css/tailwind.css"
+   <div class="container mx-auto">
+        <div class="grid grid-cols-12 gap-5">
+            <div class="col-span-3">
+                <div class="text-center">
+                    <div class="popular-img relative">
+                        <img src="../frontend/src/img/img/gallery/popular1.png" alt="">
+                        <div class="absolute block w-full bottom-0 py-5 bg-gray-700 opacity-70 text-white text-2xl">
+                            <span>Glasses</span>
+                        </div>
+                        <div class="absolute  left-16 px-9 py-3 rounded-md  opacity-100 top-1/2 text-white bg-purple-700 mx-4">
+                            <a href="" id="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-3">
+                <div class="text-center">
+                    <div class="popular-img relative">
+                        <img src="../frontend/src/img/img/gallery/popular1.png" alt="">
+                        <div class="absolute block w-full bottom-0 py-5 bg-gray-700 opacity-70 text-white text-2xl">
+                            <span>Glasses</span>
+                        </div>
+                        <div class="absolute  left-16 px-9 py-3 rounded-md  opacity-100 top-1/2 text-white bg-purple-700 mx-4">
+                            <a href="" id="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-3">
+                <div class="text-center">
+                    <div class="popular-img relative">
+                        <img src="../frontend/src/img/img/gallery/popular1.png" alt="">
+                        <div class="absolute block w-full bottom-0 py-5 bg-gray-700 opacity-70 text-white text-2xl">
+                            <span>Glasses</span>
+                        </div>
+                        <div class="absolute  left-16 px-9 py-3 rounded-md  opacity-100 top-1/2 text-white bg-purple-700 mx-4">
+                            <a href="" id="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-3">
+                <div class="text-center">
+                    <div class="popular-img relative">
+                        <img src="../frontend/src/img/img/gallery/popular1.png" alt="">
+                        <div class="absolute block w-full bottom-0 py-5 bg-gray-700 opacity-70 text-white text-2xl">
+                            <span>Glasses</span>
+                        </div>
+                        <div class="absolute  left-16 px-9 py-3 rounded-md  opacity-100 top-1/2 text-white bg-purple-700 mx-4">
+                            <a href="" id="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="arial text-center mt-28">
+            <div>
+                <h1 class="text-indigo-600 text-5xl font-serif font-bold">
+                    NEW <br>
+                     ARRIVAL</h1>
+            </div>
+            <!-- cot 1-->
+     <div class="container mx-auto mt-5 xl:px-0 px-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class=" relative group overflow-hidden">
+                <div
+                    class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12 ">
+                    <a href="">
+                        <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_11-360x432.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <span class="absolute text-white bg-black top-0 left-0 mt-3 ml-5 text-xs py-1 px-2 ">-0%</span>
+                <div class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8 text-center">
+                    <h4 class="text-2xl"><a href="">Collection</a> </h4>
+                    <span class="flex justify-center text-yellow-400 my-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <p class="text-lg">$35.00 – $375.00</p>
+
+                </div>
+                <div class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                    <div class="flex justify-between">
+                        <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                class="fas fa-heart text-white "></i></a>
+                        <a href="#"
+                            class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md text-white font-medium mx-2 uppercase">add
+                            to card</a>
+                        <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                class="fas fa-search text-white"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="relative group overflow-hidden">
+                <div
+                    class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12 ">
+                    <div>
+                        <a href="" class="inline-block question">
+                            <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/01/jacket_1-360x432.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8 text-center">
+                    <h4 class="text-2xl"><a href="#">Regular Jacket</a></h4>
+                    <span class="flex justify-center text-yellow-400 my-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <span class="flex justify-center">
+                        <p class="text-lg">$510.00</p>
+                    </span>
+                </div>
+                <div class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                    <div class="flex justify-between">
+                        <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                class="fas fa-heart text-white "></i></a>
+                        <a href="#"
+                            class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md text-white font-medium mx-2 uppercase">add
+                            to card</a>
+                        <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                class="fas fa-search text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative group overflow-hidden">
+                <div
+                    class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                    <a href="" class="inline-block question">
+                        <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_5-111-360x432.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <div class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8 text-center">
+                    <h4 class="text-2xl"><a href="">Headphone</a></h4>
+                    <span class="flex justify-center text-yellow-400 my-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <p class="text-lg">$35.00</p>
+                </div>
+                <div class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                    <div class="flex justify-between">
+                        <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                class="fas fa-heart text-white "></i></a>
+                        <a href="#"
+                            class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md text-white font-medium mx-2 uppercase">add
+                            to
+                            card</a>
+                        <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                class="fas fa-search text-white"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="relative group overflow-hidden">
+                <div
+                    class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                    <a href="">
+                        <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/l-360x432.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <div class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8 text-center">
+                    <h4 class="text-2xl"><a href="#">Lense</a> </h4>
+                    <span class="flex  justify-center text-yellow-400 my-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <p class="text-lg">$630.00</p>
+                </div>
+                <div class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                    <div class="flex justify-between">
+                        <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                class="fas fa-heart text-white "></i></a>
+                        <a href="#"
+                            class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md text-white font-medium mx-2 uppercase">add
+                            to
+                            card</a>
+                        <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                class="fas fa-search text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+            <!--cot 1-->
+            <!-- cot 2-->
+             <div class="container mx-auto mt-5 xl:px-0 px-4">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class=" relative group overflow-hidden">
+                        <div
+                            class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12 ">
+                            <a href="">
+                                <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_11-360x432.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <span class="absolute text-white bg-black top-0 left-0 mt-3 ml-5 text-xs py-1 px-2 ">-0%</span>
+                        <div class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8 text-center">
+                            <h4 class="text-2xl"><a href="">Collection</a> </h4>
+                            <span class="flex justify-center text-yellow-400 my-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <p class="text-lg">$35.00 – $375.00</p>
+        
+                        </div>
+                        <div class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                            <div class="flex justify-between">
+                                <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                        class="fas fa-heart text-white "></i></a>
+                                <a href="#"
+                                    class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md text-white font-medium mx-2 uppercase">add
+                                    to card</a>
+                                <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                        class="fas fa-search text-white"></i></a>
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="relative group overflow-hidden">
+                        <div
+                            class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12 ">
+                            <div>
+                                <a href="" class="inline-block question">
+                                    <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/01/jacket_1-360x432.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8 text-center">
+                            <h4 class="text-2xl"><a href="#">Regular Jacket</a></h4>
+                            <span class="flex justify-center text-yellow-400 my-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="flex justify-center">
+                                <p class="text-lg">$510.00</p>
+                            </span>
+                        </div>
+                        <div class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                            <div class="flex justify-between">
+                                <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                        class="fas fa-heart text-white "></i></a>
+                                <a href="#"
+                                    class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md text-white font-medium mx-2 uppercase">add
+                                    to card</a>
+                                <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                        class="fas fa-search text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="relative group overflow-hidden">
+                        <div
+                            class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                            <a href="" class="inline-block question">
+                                <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_5-111-360x432.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8 text-center">
+                            <h4 class="text-2xl"><a href="">Headphone</a></h4>
+                            <span class="flex justify-center text-yellow-400 my-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <p class="text-lg">$35.00</p>
+                        </div>
+                        <div class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                            <div class="flex justify-between">
+                                <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                        class="fas fa-heart text-white "></i></a>
+                                <a href="#"
+                                    class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md text-white font-medium mx-2 uppercase">add
+                                    to
+                                    card</a>
+                                <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                        class="fas fa-search text-white"></i></a>
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="relative group overflow-hidden">
+                        <div
+                            class="flex justify-center items-center transition duration-300 ease-in-out transform translate-y-0 group-hover:-translate-y-12">
+                            <a href="">
+                                <img src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/l-360x432.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="transition duration-700 ease-in-out transform translate-y-0 group-hover:-translate-y-8 text-center">
+                            <h4 class="text-2xl"><a href="#">Lense</a> </h4>
+                            <span class="flex  justify-center text-yellow-400 my-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <p class="text-lg">$630.00</p>
+                        </div>
+                        <div class="transition duration-1000 ease-in-out transform translate-y-64 group-hover:-translate-y-4 ">
+                            <div class="flex justify-between">
+                                <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                        class="fas fa-heart text-white "></i></a>
+                                <a href="#"
+                                    class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md text-white font-medium mx-2 uppercase">add
+                                    to
+                                    card</a>
+                                <a href="#" class="md:px-5 md:py-2 px-2 py-1 bg-black rounded-md"><i
+                                        class="fas fa-search text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!- cot 2-->
+             <div class="flex justify-center">
+                <a href="" class="px-5 py-2 bg-white border border-purple-500 border-2 text-2xl  font-serif text-purple-400">Browse More</a>
+            </div>
+            <div class="my-14 relative text-center">
+                <img src="../frontend/src/img/section_bg01.png" class="w-full h-auto relative" alt="">
+                <div class="absolute flex flex-col items-center top-1/4 left-80  text-center">
+                    <span class=" text-6xl uppercase text-white mb-5">collection houses <br> our
+                        first-ever</span> <br><br>
+                    <a href="#" class="px-5 py-2 bg-purple-400 w-max text-2xl  font-serif text-white">About us</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+   var x = 1000;
+x = x.toLocaleString('it-IT', {style : 'currency', currency : 'VND'});
+console.log(x);
+
+khi login thì lưu data vào localStorage,
+phần header hiển thị tên thì check localstorage xem có tồn tại user nào k, nếu tồn tại thì lấy ra, k thì thôi
